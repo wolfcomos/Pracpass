@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2"
+CMAKE_SOURCE_DIR = "/mnt/d/eecs projects/eecs583/Pracpass"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build"
+CMAKE_BINARY_DIR = "/mnt/d/eecs projects/eecs583/Pracpass/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build/CMakeFiles" "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/eecs projects/eecs583/Pracpass/build/CMakeFiles" "/mnt/d/eecs projects/eecs583/Pracpass/build//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/mnt/d/eecs projects/eecs583/Pracpass/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -210,7 +210,7 @@ RISCVTargetParserTableGen: cmake_check_build_system
 
 # fast build rule for target.
 RISCVTargetParserTableGen/fast:
-	$(MAKE) $(MAKESILENT) -f livenessAnalysis/CMakeFiles/RISCVTargetParserTableGen.dir/build.make livenessAnalysis/CMakeFiles/RISCVTargetParserTableGen.dir/build
+	$(MAKE) $(MAKESILENT) -f avaliableExpressionAnalysis/CMakeFiles/RISCVTargetParserTableGen.dir/build.make avaliableExpressionAnalysis/CMakeFiles/RISCVTargetParserTableGen.dir/build
 .PHONY : RISCVTargetParserTableGen/fast
 
 #=============================================================================
@@ -223,7 +223,7 @@ HW2Pass: cmake_check_build_system
 
 # fast build rule for target.
 HW2Pass/fast:
-	$(MAKE) $(MAKESILENT) -f livenessAnalysis/CMakeFiles/HW2Pass.dir/build.make livenessAnalysis/CMakeFiles/HW2Pass.dir/build
+	$(MAKE) $(MAKESILENT) -f avaliableExpressionAnalysis/CMakeFiles/HW2Pass.dir/build.make avaliableExpressionAnalysis/CMakeFiles/HW2Pass.dir/build
 .PHONY : HW2Pass/fast
 
 #=============================================================================
@@ -236,7 +236,7 @@ install-HW2Pass: cmake_check_build_system
 
 # fast build rule for target.
 install-HW2Pass/fast:
-	$(MAKE) $(MAKESILENT) -f livenessAnalysis/CMakeFiles/install-HW2Pass.dir/build.make livenessAnalysis/CMakeFiles/install-HW2Pass.dir/build
+	$(MAKE) $(MAKESILENT) -f avaliableExpressionAnalysis/CMakeFiles/install-HW2Pass.dir/build.make avaliableExpressionAnalysis/CMakeFiles/install-HW2Pass.dir/build
 .PHONY : install-HW2Pass/fast
 
 #=============================================================================
@@ -249,7 +249,7 @@ install-HW2Pass-stripped: cmake_check_build_system
 
 # fast build rule for target.
 install-HW2Pass-stripped/fast:
-	$(MAKE) $(MAKESILENT) -f livenessAnalysis/CMakeFiles/install-HW2Pass-stripped.dir/build.make livenessAnalysis/CMakeFiles/install-HW2Pass-stripped.dir/build
+	$(MAKE) $(MAKESILENT) -f avaliableExpressionAnalysis/CMakeFiles/install-HW2Pass-stripped.dir/build.make avaliableExpressionAnalysis/CMakeFiles/install-HW2Pass-stripped.dir/build
 .PHONY : install-HW2Pass-stripped/fast
 
 # Help Target

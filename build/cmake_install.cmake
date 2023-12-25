@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2
+# Install script for directory: /mnt/d/eecs projects/eecs583/Pracpass
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build/livenessAnalysis/cmake_install.cmake")
+  include("/mnt/d/eecs projects/eecs583/Pracpass/build/avaliableExpressionAnalysis/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/d/eecs projects/eecs583/Pracpass/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2"
+CMAKE_SOURCE_DIR = "/mnt/d/eecs projects/eecs583/Pracpass"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build"
+CMAKE_BINARY_DIR = "/mnt/d/eecs projects/eecs583/Pracpass/build"
 
 # Utility rule file for acc_gen.
 
@@ -78,6 +78,6 @@ CMakeFiles/acc_gen.dir/clean:
 .PHONY : CMakeFiles/acc_gen.dir/clean
 
 CMakeFiles/acc_gen.dir/depend:
-	cd "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2" "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2" "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build" "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build" "/mnt/d/eecs projects/eecs583/eecs583hw2/F23_EECS583_HW2/build/CMakeFiles/acc_gen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/mnt/d/eecs projects/eecs583/Pracpass/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/d/eecs projects/eecs583/Pracpass" "/mnt/d/eecs projects/eecs583/Pracpass" "/mnt/d/eecs projects/eecs583/Pracpass/build" "/mnt/d/eecs projects/eecs583/Pracpass/build" "/mnt/d/eecs projects/eecs583/Pracpass/build/CMakeFiles/acc_gen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/acc_gen.dir/depend
 
